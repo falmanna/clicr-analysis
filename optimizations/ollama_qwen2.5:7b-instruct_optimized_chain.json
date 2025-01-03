@@ -1,0 +1,23 @@
+{
+  "lm": null,
+  "traces": [],
+  "train": [],
+  "demos": [],
+  "signature": {
+    "instructions": "You are a medical professional analyzing complex case contexts. Given a detailed medical case_context and a query containing a placeholder, identify and provide the correct medical term or condition that fits the @placeholder token in the query.",
+    "fields": [
+      {
+        "prefix": "Case Context:",
+        "description": "The medical case context."
+      },
+      {
+        "prefix": "Query:",
+        "description": "The query with a @placeholder token."
+      },
+      {
+        "prefix": "Answer:",
+        "description": "The correct answer that fits the @placeholder token in the query."
+      }
+    ]
+  }
+}
