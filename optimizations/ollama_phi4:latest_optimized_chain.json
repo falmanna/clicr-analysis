@@ -1,0 +1,30 @@
+{
+  "lm": null,
+  "traces": [],
+  "train": [],
+  "demos": [],
+  "signature": {
+    "instructions": "You are a medical diagnostician. Given a medical case context and a query, identify the correct value that fits the @placeholder token in the query based on the details provided in the case context.",
+    "fields": [
+      {
+        "prefix": "Case Context:",
+        "description": "The medical case context."
+      },
+      {
+        "prefix": "Query:",
+        "description": "The query with a @placeholder token."
+      },
+      {
+        "prefix": "Answer:",
+        "description": "The correct answer that fits the @placeholder token in the query."
+      }
+    ]
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11.9",
+      "dspy": "2.5.43",
+      "cloudpickle": "3.1.0"
+    }
+  }
+}
